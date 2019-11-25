@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/cover/main",
+    
+    "pages/personal/main",
+    "pages/searchBook/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#02a774",
+    "navigationBarTitleText": "BookStory",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "/pages/index/main",
+        "text": "BookList",
+        "iconPath": "/static/tabs/orders.png",
+        "selectedIconPath": "/static/tabs/orders-active.png"
+      },
+      {
+        "pagePath": "/pages/searchBook/main",
+        "text": "searchBook",
+        "iconPath": "/static/tabs/search.png",
+        "selectedIconPath": "/static/tabs/search-active.png"
+      },
+      {
+        "pagePath": "/pages/personal/main",
+        "text": "personal",
+        "iconPath": "/static/tabs/home.png",
+        "selectedIconPath": "/static/tabs/home-active.png"
+      }
+    ]
+  }
+}
