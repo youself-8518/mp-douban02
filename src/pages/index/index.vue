@@ -41,12 +41,25 @@
           <p>路遥</p>
         </div>
       </div>
+      <button class="centerBtn" open-type="share">分享给好友</button>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  onShareAppMessage(e){
+    console.log(e);
+    return {
+      title: "平凡的世界",
+      path: "/pages/index/main",
+      imageUrl: "/static/images/user.png"
+    }
+  },
+  mounted(){
+    wx.setNavigationBarTitle({ title: 'FristView' });
+  }
+};
 </script>
 
 <style scoped lang="less">
@@ -92,5 +105,9 @@ export default {};
       line-height: 50rpx;
     }
   }
+}
+.centerBtn{
+  width: 40%;
+  margin: 20rpx auto;
 }
 </style>

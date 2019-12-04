@@ -3,7 +3,8 @@
     "pages/index/main",
     "pages/cover/main",
     "pages/personal/main",
-    "pages/searchBook/main"
+    "pages/searchBook/main",
+    "pages/bookList/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,7 +16,7 @@
     "list": [
       {
         "pagePath": "pages/index/main",
-        "text": "BookList",
+        "text": "FristView",
         "iconPath": "/static/tabs/orders.png",
         "selectedIconPath": "/static/tabs/orders-active.png"
       },

@@ -19,7 +19,7 @@
 	},
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
-	"appid": "touristappid",
+	"appid": "wx17798c27a91ba9e6",
 	"projectname": "mp-douban",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -51,6 +51,13 @@
 					"id": -1,
 					"name": "pages/index/main",
 					"pathName": "pages/index/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/cover/main",
+					"pathName": "pages/cover/main",
 					"scene": null
 				}
 			]
