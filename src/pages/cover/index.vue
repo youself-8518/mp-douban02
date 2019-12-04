@@ -35,7 +35,7 @@ export default {
 			this.index = e.target.current;
 		},
 		toIndex(){
-			wx.navigateTo({
+			wx.reLaunch({
 				url: '/pages/index/main'
 			})
 		}
